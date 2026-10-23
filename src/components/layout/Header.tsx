@@ -1,6 +1,6 @@
 import { Menu, X } from 'lucide-react'
 import { AnimatePresence, motion } from 'motion/react'
-import { useEffect, useState, type MouseEvent } from 'react'
+import { useEffect, useRef, useState, type MouseEvent } from 'react'
 import { profile } from '../../content/profile'
 import { useActiveSection } from '../../hooks/useActiveSection'
 import { ThemeToggle } from './ThemeToggle'
@@ -18,6 +18,7 @@ const SECTION_IDS = NAV.map((item) => item.id)
 
 export function Header() {
   const [open, setOpen] = useState(false)
+  const scrollTimeout = useRef<number | null>(null)
   const active = useActiveSection(SECTION_IDS)
 
   useEffect(() => {
@@ -43,7 +44,9 @@ export function Header() {
     document.body.style.overflow = ''
     setOpen(false)
 
-    window.setTimeout(() => {
+    if (scrollTimeout.current) window.clearTimeout(scrollTimeout.current)
+
+    scrollTimeout.current = window.setTimeout(() => {
       const target = document.querySelector<HTMLElement>(href)
       if (!target) return
 
