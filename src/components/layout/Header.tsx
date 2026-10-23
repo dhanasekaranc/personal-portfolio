@@ -10,6 +10,7 @@ const NAV = [
   { label: 'Experience', href: '#experience', id: 'experience' },
   { label: 'Work', href: '#work', id: 'work' },
   { label: 'Skills', href: '#skills', id: 'skills' },
+  { label: 'Writing', href: '#writing', id: 'writing' },
   { label: 'Education', href: '#education', id: 'education' },
   { label: 'Contact', href: '#contact', id: 'contact' },
 ]
@@ -80,7 +81,7 @@ export function Header() {
           </span>
         </a>
 
-        <nav aria-label="Sections" className="hidden items-center gap-0.5 md:flex">
+        <nav aria-label="Sections" className="hidden items-center gap-0.5 lg:flex">
           {NAV.map((item) => {
             const isActive = active === item.id
             return (
@@ -112,7 +113,7 @@ export function Header() {
             aria-expanded={open}
             aria-controls="mobile-nav"
             aria-label={open ? 'Close menu' : 'Open menu'}
-            className="inline-flex size-9 items-center justify-center rounded-lg border border-line bg-surface text-muted transition-colors hover:border-line-strong hover:text-ink md:hidden"
+            className="inline-flex size-9 items-center justify-center rounded-lg border border-line bg-surface text-muted transition-colors hover:border-line-strong hover:text-ink lg:hidden"
           >
             {open ? (
               <X className="size-4" aria-hidden="true" />
@@ -131,7 +132,7 @@ export function Header() {
             animate={{ height: 'auto', opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.22, ease: 'easeOut' }}
-            className="overflow-hidden border-t border-line bg-bg md:hidden"
+            className="overflow-hidden border-t border-line bg-bg lg:hidden"
           >
             <nav aria-label="Sections" className="container-page flex flex-col py-3">
               {NAV.map((item) => (

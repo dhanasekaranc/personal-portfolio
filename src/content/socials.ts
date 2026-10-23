@@ -1,6 +1,6 @@
 import { Mail, Phone } from 'lucide-react'
 import type { ComponentType } from 'react'
-import { GithubIcon, LinkedinIcon } from '../components/ui/BrandIcons'
+import { GithubIcon, LinkedinIcon, MediumIcon } from '../components/ui/BrandIcons'
 
 export type IconComponent = ComponentType<{ className?: string }>
 
@@ -23,6 +23,12 @@ export const socials: Social[] = [
     href: 'https://www.linkedin.com/in/dhana-sekaran-chellamuthu-a09bb0168',
     icon: LinkedinIcon,
     handle: 'Dhana Sekaran Chellamuthu',
+  },
+  {
+    label: 'Medium',
+    href: 'https://medium.com/@dhanasekaran23298',
+    icon: MediumIcon,
+    handle: '@dhanasekaran23298',
   },
   {
     label: 'Email',

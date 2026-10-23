@@ -7,6 +7,7 @@ import { Experience } from './components/sections/Experience'
 import { Hero } from './components/sections/Hero'
 import { Projects } from './components/sections/Projects'
 import { Skills } from './components/sections/Skills'
+import { Writing } from './components/sections/Writing'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Experience />
         <Projects />
         <Skills />
+        <Writing />
         <Education />
         <Contact />
       </main>

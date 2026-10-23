@@ -30,7 +30,8 @@ All copy lives in typed files under `src/content/` — no component changes need
 | `projects.ts`      | Anonymised client case studies              |
 | `skills.ts`        | Grouped skills                              |
 | `education.ts`     | Education and certifications                |
-| `socials.ts`       | GitHub, LinkedIn, email, phone links        |
+| `socials.ts`       | GitHub, LinkedIn, Medium, email, phone links |
+| `writing.ts`       | Medium posts and profile link               |
 
 Achievement bullets support `**bold**` for emphasising metrics.
 
@@ -40,7 +41,7 @@ Achievement bullets support `**bold**` for emphasising metrics.
 src/
   components/
     layout/     Header, Footer, ThemeToggle
-    sections/   Hero, About, Experience, Projects, Skills, Education, Contact
+    sections/   Hero, About, Experience, Projects, Skills, Writing, Education, Contact
     theme/      Theme context and provider
     ui/         Reveal, SectionHeading, RichText
   content/      Typed portfolio content

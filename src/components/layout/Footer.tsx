@@ -1,6 +1,6 @@
 import { ArrowUp, Mail } from 'lucide-react'
 import { profile } from '../../content/profile'
-import { GithubIcon, LinkedinIcon } from '../ui/BrandIcons'
+import { GithubIcon, LinkedinIcon, MediumIcon } from '../ui/BrandIcons'
 
 const CURRENT_YEAR = new Date().getFullYear()
 
@@ -39,6 +39,15 @@ export function Footer() {
             className="grid size-9 place-items-center rounded-lg border border-line text-muted transition-colors hover:border-line-strong hover:text-ink"
           >
             <LinkedinIcon className="size-4" />
+          </a>
+          <a
+            href="https://medium.com/@dhanasekaran23298"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Medium posts"
+            className="grid size-9 place-items-center rounded-lg border border-line text-muted transition-colors hover:border-line-strong hover:text-ink"
+          >
+            <MediumIcon className="size-4" />
           </a>
           <a
             href={`mailto:${profile.email}`}

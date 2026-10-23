@@ -8,7 +8,7 @@ export function Education() {
     <section id="education" className="section">
       <div className="container-page">
         <Reveal>
-          <SectionHeading eyebrow="05 — Background" title="Education and credentials." />
+          <SectionHeading eyebrow="06 — Background" title="Education and credentials." />
         </Reveal>
 
         <div className="mt-12 grid gap-10 lg:grid-cols-2 lg:gap-14">

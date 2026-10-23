@@ -15,7 +15,7 @@ export function Contact() {
             />
 
             <div className="relative">
-              <p className="eyebrow">06 — Contact</p>
+              <p className="eyebrow">07 — Contact</p>
               <h2 className="mt-4 max-w-2xl text-3xl font-semibold tracking-tight text-balance text-ink sm:text-4xl">
                 Let&apos;s build something that holds up at scale.
               </h2>
