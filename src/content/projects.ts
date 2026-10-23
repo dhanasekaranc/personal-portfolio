@@ -48,11 +48,27 @@ export const projects: Project[] = [
     stack: ['React', 'Jest', 'React Testing Library', 'GitHub Copilot'],
   },
   {
-    title: 'Reporting offload to Databricks',
+    title: 'Database workload migration',
     context: 'Data platform',
     summary:
       'Moved resource-intensive report generation off PostgreSQL onto Databricks with PySpark, reducing database load and halving compute costs without changing the reporting experience.',
     metric: '−50% compute',
     stack: ['Databricks', 'PySpark', 'PostgreSQL', 'Data pipelines'],
+  },
+  {
+    title: 'Legacy AKS modernisation',
+    context: 'Cloud platform',
+    summary:
+      'Migrated legacy Azure AKS clusters onto managed components, removing hand-maintained Istio plumbing and cutting the ongoing maintenance effort for the platform team.',
+    metric: '−70% maintenance',
+    stack: ['Azure', 'AKS', 'Kubernetes', 'Istio', 'Helm'],
+  },
+  {
+    title: 'Partner integration platform',
+    context: 'Security & integrations',
+    summary:
+      'Delivered secure integrations with four external partners using client assertions and JWKS-based authentication, giving each partner a verified, standards-based path into the platform.',
+    metric: '4 partners',
+    stack: ['OAuth2', 'JWKS', 'Node.js', 'Keycloak', 'REST APIs'],
   },
 ]

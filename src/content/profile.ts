@@ -16,8 +16,8 @@ export const profile = {
   stats: [
     { value: '7', suffix: 'yrs', label: 'Full stack experience' },
     { value: '20+', suffix: '', label: 'Microservices migrated' },
-    { value: '3.5k+', suffix: '', label: 'Tests migrated' },
-    { value: '99.9%', suffix: '', label: 'Uptime achieved' },
+    { value: '4', suffix: '', label: 'Partner integrations' },
+    { value: '70%', suffix: '', label: 'Less AKS maintenance' },
   ],
   focus: [
     'Full stack product delivery',

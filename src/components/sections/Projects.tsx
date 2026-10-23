@@ -8,8 +8,8 @@ export function Projects() {
       <div className="container-page">
         <Reveal>
           <SectionHeading eyebrow="03 — Selected work" title="Platform-scale problems, measurable outcomes.">
-            Client engagements across healthcare and data platforms. Details are intentionally
-            anonymised — no client names, links or screenshots.
+            Client engagements across healthcare, cloud and data platforms. Details are
+            intentionally anonymised — no client names, links or screenshots.
           </SectionHeading>
         </Reveal>
 
