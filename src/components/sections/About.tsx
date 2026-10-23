@@ -7,7 +7,7 @@ export function About() {
     <section id="about" className="section">
       <div className="container-page">
         <Reveal>
-          <SectionHeading eyebrow="01 — About" title="Engineering with an outcome in mind." />
+          <SectionHeading eyebrow="01 — About" title="Full stack, from interface to infrastructure." />
         </Reveal>
 
         <div className="mt-12 grid gap-10 lg:grid-cols-[1.45fr_1fr] lg:gap-16">
@@ -20,9 +20,9 @@ export function About() {
             </Reveal>
             <Reveal delay={0.12}>
               <p>
-                I work closely with clients and product teams to turn ambiguous requirements into
-                shipped features — and I stay close to production, because that is where the
-                interesting problems live.
+                I&apos;m looking for a full stack engineering role where infrastructure is part
+                of the job — owning a feature from the React component down to the Kubernetes
+                workload, rather than handing it off at the boundary.
               </p>
             </Reveal>
           </div>
@@ -52,6 +52,13 @@ export function About() {
                 </p>
                 <p className="mt-1.5 text-sm text-ink">
                   Senior Consultant Developer · Thoughtworks
+                </p>
+
+                <p className="mt-5 font-mono text-[10px] uppercase tracking-[0.16em] text-faint">
+                  Open to
+                </p>
+                <p className="mt-1.5 text-sm text-ink">
+                  Full stack engineer roles with infrastructure ownership
                 </p>
               </div>
             </div>

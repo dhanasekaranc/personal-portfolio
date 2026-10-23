@@ -20,8 +20,9 @@ export function Contact() {
                 Let&apos;s build something that holds up at scale.
               </h2>
               <p className="mt-4 max-w-xl text-base leading-relaxed text-muted">
-                I&apos;m open to senior full stack and platform engineering roles. The fastest way
-                to reach me is email — or call if it&apos;s quicker.
+                I&apos;m looking for full stack engineering roles where I can own both the
+                product and the infrastructure it runs on. The fastest way to reach me is email —
+                or call if it&apos;s quicker.
               </p>
 
               <div className="mt-7 flex flex-wrap items-center gap-3">
