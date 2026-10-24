@@ -75,9 +75,6 @@ export function Header() {
           >
             {profile.initials}
           </span>
-          <span className="hidden text-sm font-medium tracking-tight text-ink sm:block">
-            {profile.shortName}
-          </span>
         </a>
 
         <nav aria-label="Sections" className="hidden items-center gap-0.5 lg:flex">

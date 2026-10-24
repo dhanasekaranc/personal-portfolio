@@ -1,7 +1,6 @@
 export const profile = {
   name: 'Dhana Sekaran Chellamuthu',
-  shortName: 'Dhana',
-  initials: 'DC',
+  initials: 'DS',
   role: 'Senior Full Stack Engineer',
   tagline: 'Scalable web and mobile products, from React interfaces to Azure infrastructure.',
   intro:
