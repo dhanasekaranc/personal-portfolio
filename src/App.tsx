@@ -1,4 +1,3 @@
-import { Footer } from './components/layout/Footer'
 import { Header } from './components/layout/Header'
 import { About } from './components/sections/About'
 import { Contact } from './components/sections/Contact'
@@ -29,8 +28,6 @@ function App() {
         <Education />
         <Contact />
       </main>
-
-      <Footer />
     </div>
   )
 }

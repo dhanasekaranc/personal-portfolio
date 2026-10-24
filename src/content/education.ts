@@ -3,7 +3,6 @@ export type Education = {
   institution: string
   location: string
   period: string
-  grade: string
 }
 
 export const education: Education[] = [
@@ -12,7 +11,6 @@ export const education: Education[] = [
     institution: 'Coimbatore Institute of Technology',
     location: 'Coimbatore, India',
     period: '07/2015 — 04/2019',
-    grade: 'GPA 8.6 / 10',
   },
 ]
 

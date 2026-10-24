@@ -5,15 +5,16 @@ type SectionHeadingProps = {
   title: string
   children?: ReactNode
   id?: string
+  titleClassName?: string
 }
 
-export function SectionHeading({ eyebrow, title, children, id }: SectionHeadingProps) {
+export function SectionHeading({ eyebrow, title, children, id, titleClassName }: SectionHeadingProps) {
   return (
     <div className="max-w-2xl">
       <p className="eyebrow">{eyebrow}</p>
       <h2
         id={id}
-        className="mt-4 text-3xl font-semibold tracking-tight text-balance text-ink sm:text-4xl"
+        className={`mt-4 text-3xl font-semibold tracking-tight text-balance text-ink sm:text-4xl ${titleClassName ?? ''}`}
       >
         {title}
       </h2>

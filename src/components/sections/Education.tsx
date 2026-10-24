@@ -23,13 +23,8 @@ export function Education() {
             {education.map((item) => (
               <Reveal key={item.degree} delay={0.05}>
                 <article className="card mt-4 p-6">
-                  <div className="flex flex-wrap items-start justify-between gap-3">
-                    <div>
-                      <h4 className="text-base font-semibold text-ink">{item.degree}</h4>
-                      <p className="mt-1 text-sm text-muted">{item.institution}</p>
-                    </div>
-                    <span className="chip">{item.grade}</span>
-                  </div>
+                  <h4 className="text-base font-semibold text-ink">{item.degree}</h4>
+                  <p className="mt-1 text-sm text-muted">{item.institution}</p>
                   <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-1 border-t border-line pt-4 text-xs text-faint">
                     <span>{item.period}</span>
                     <span aria-hidden="true">·</span>

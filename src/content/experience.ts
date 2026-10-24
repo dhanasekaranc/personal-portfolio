@@ -15,7 +15,7 @@ export const experience: Company[] = [
   {
     name: 'Thoughtworks Technologies (India) Pvt Ltd',
     period: '05/2022 — Present',
-    location: 'India',
+    location: 'Coimbatore, India',
     roles: [
       {
         title: 'Senior Consultant Developer',
