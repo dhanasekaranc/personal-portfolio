@@ -1,11 +1,11 @@
 @import 'tailwindcss';
 
 @font-face {
-  font-family: 'Inter Variable';
+  font-family: 'Outfit Variable';
   font-style: normal;
   font-display: swap;
   font-weight: 100 900;
-  src: url('@fontsource-variable/inter/files/inter-latin-wght-normal.woff2') format('woff2');
+  src: url('@fontsource-variable/outfit/files/outfit-latin-wght-normal.woff2') format('woff2');
 }
 
 @font-face {
@@ -20,7 +20,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme inline {
-  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-sans: 'Outfit Variable', ui-sans-serif, system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono Variable', ui-monospace, 'SF Mono', Menlo, monospace;
 
   --color-bg: var(--bg);
