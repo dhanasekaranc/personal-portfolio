@@ -35,7 +35,7 @@ export const projects: Project[] = [
     title: 'Mobile dashboard performance',
     context: 'React Native application',
     summary:
-      'Cut dashboard load times by parallelising API calls, introducing caching and database indexes, and removing redundant requests from the critical path.',
+      'Cut dashboard load times by parallelising API calls, introducing caching and database indexes and removing redundant requests from the critical path.',
     metric: '30% faster',
     stack: ['React Native', 'Node.js', 'PostgreSQL', 'Caching'],
   },

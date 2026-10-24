@@ -23,7 +23,7 @@ export const posts: Post[] = [
     date: 'May 2024',
     published: '2024-05-28',
     excerpt:
-      'How JWTs are structured, how signatures and claims work, and how refresh tokens and client assertions keep partner integrations secure.',
+      'How JWTs are structured, how signatures and claims work and how refresh tokens and client assertions keep partner integrations secure.',
     tags: ['Security', 'JWT', 'OAuth2'],
   },
   {
@@ -32,7 +32,7 @@ export const posts: Post[] = [
     date: 'May 2023',
     published: '2023-05-15',
     excerpt:
-      'A hands-on Docker primer: pulling and running images, managing containers, pruning, and writing a Dockerfile for a Node.js service.',
+      'A hands-on Docker primer: pulling and running images, managing containers, pruning and writing a Dockerfile for a Node.js service.',
     tags: ['Docker', 'DevOps', 'Containers'],
   },
 ]
