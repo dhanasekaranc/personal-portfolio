@@ -9,7 +9,7 @@ export function Writing() {
       <div className="container-page">
         <Reveal>
           <SectionHeading eyebrow="05 — Writing" title="Notes from building systems.">
-            Occasional write-ups on databases, security and infrastructure — published on Medium.
+            Occasional write-ups on databases, security and infrastructure, published on Medium.
           </SectionHeading>
         </Reveal>
 

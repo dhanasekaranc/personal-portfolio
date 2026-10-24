@@ -22,9 +22,9 @@ export const experience: Company[] = [
         note: 'Current',
         highlights: [
           'Designed and led a gamified daily task engine with personalised task generation and surprise rewards, using event-driven architecture to offload next-task computation from the completion API and improve system performance.',
-          'Owned end-to-end feature delivery for a large-scale product platform — requirement analysis, solution presentations, Jira stories and production incident resolution — working directly with client stakeholders.',
+          'Owned end-to-end feature delivery for a large-scale product platform: requirement analysis, solution presentations, Jira stories and production incident resolution, working directly with client stakeholders.',
           'Rolled out RenovateBot across 30+ repositories, cutting manual dependency-management effort by **80%** and improving security through timely updates.',
-          'Led major framework upgrades — React 16 → 18 and React Native 0.60 → 0.74 — across web and mobile applications, navigating breaking changes to protect compatibility and performance.',
+          'Led major framework upgrades from React 16 to 18 and React Native 0.60 to 0.74 across web and mobile applications, navigating breaking changes to protect compatibility and performance.',
           'Migrated **3,500+** tests from Enzyme to React Testing Library with GitHub Copilot, reducing manual migration effort by roughly **50%**.',
           'Replaced the vulnerable, unmaintained Agenda scheduler with BullMQ across 15+ deeply integrated microservices using a phased rollout, eliminating dependency risk and improving scheduling stability.',
           'Defined and led the migration of TB-scale monolithic servers to functionally segmented services across 20+ microservices, completed within planned downtime and achieving **99.9%** uptime with no single points of failure.',

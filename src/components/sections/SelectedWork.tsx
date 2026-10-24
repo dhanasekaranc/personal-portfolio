@@ -25,7 +25,7 @@ export function SelectedWork() {
             </span>
             <span className="mt-0.5 block text-xs leading-relaxed text-faint">
               {isOpen
-                ? 'Showing all selected work — collapse when you’re done.'
+                ? 'Showing all selected work. Collapse when you’re done.'
                 : 'Need more detail on some of the work? Unfold to read the full write-up, outcome and stack.'}
             </span>
           </span>

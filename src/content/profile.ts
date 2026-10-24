@@ -6,9 +6,9 @@ export const profile = {
   intro:
     'I architect and deliver end-to-end products, spanning React and React Native interfaces, Node.js services, and the Azure cloud infrastructure that powers them.',
   about: [
-    'My expertise spans the entire engineering lifecycle — from API architecture and data modelling to frontend delivery, production reliability, and platform optimisation. I’ve led the decomposition of a multi-terabyte monolith into 20+ services, replaced legacy scheduling systems across 15 microservices, modernised legacy AKS clusters, and automated dependency management across 30+ repositories.',
-    'I focus on measurable engineering outcomes — achieving 99.9% uptime, 30% faster dashboard performance, and 50% lower compute costs — while building maintainable, resilient codebases that improve developer productivity and long-term system reliability.',
-    'I’m driven by engineering challenges that bridge application development and infrastructure — taking end-to-end ownership of features, from React components and backend services to Kubernetes workloads and cloud operations, with accountability for performance, scalability, reliability, and the complete production lifecycle.',
+    'My expertise spans the entire engineering lifecycle, from API architecture and data modelling to frontend delivery, production reliability, and platform optimisation. I’ve led the decomposition of a multi-terabyte monolith into 20+ services, replaced legacy scheduling systems across 15 microservices, modernised legacy AKS clusters, and automated dependency management across 30+ repositories.',
+    'I focus on measurable engineering outcomes: 99.9% uptime, 30% faster dashboard performance, and 50% lower compute costs. I also build maintainable, resilient codebases that improve developer productivity and long-term system reliability.',
+    'I’m driven by engineering challenges that bridge application development and infrastructure: taking end-to-end ownership of features, from React components and backend services to Kubernetes workloads and cloud operations, with accountability for performance, scalability, reliability, and the complete production lifecycle.',
   ],
   location: 'Tamil Nadu, India',
   email: 'dhanasekaran23298@gmail.com',

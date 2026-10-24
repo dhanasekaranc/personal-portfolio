@@ -10,7 +10,7 @@ export function Experience() {
       <div className="container-page">
         <Reveal>
           <SectionHeading eyebrow="02 — Experience" title="Seven years of building and modernising.">
-            Hands-on across web, mobile and cloud — from feature delivery to the migrations,
+            Hands-on across web, mobile and cloud, from feature delivery to the migrations,
             framework upgrades and tooling that keep large systems maintainable.
           </SectionHeading>
         </Reveal>
