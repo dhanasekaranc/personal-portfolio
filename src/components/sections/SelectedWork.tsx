@@ -1,19 +1,45 @@
+import { useState } from 'react'
+import { ChevronDown } from 'lucide-react'
 import { projects } from '../../content/projects'
 import { Reveal } from '../ui/Reveal'
-import { SectionHeading } from '../ui/SectionHeading'
 
-export function Projects() {
+export function SelectedWork() {
+  const [isOpen, setIsOpen] = useState(false)
+
   return (
-    <section id="work" className="section">
-      <div className="container-page">
-        <Reveal>
-          <SectionHeading eyebrow="03 — Selected work" title="Platform-scale problems, measurable outcomes.">
-            Client engagements across healthcare, cloud and data platforms. Details are
-            intentionally anonymised — no client names, links or screenshots.
-          </SectionHeading>
-        </Reveal>
+    <div className="mt-14">
+      <Reveal>
+        <button
+          type="button"
+          onClick={() => setIsOpen((open) => !open)}
+          aria-expanded={isOpen}
+          aria-controls="selected-work"
+          className="flex w-full items-center justify-between gap-4 rounded-xl border border-line bg-elevated px-5 py-4 text-left transition-colors hover:border-line-strong"
+        >
+          <span>
+            <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-faint">
+              Selected work
+            </span>
+            <span className="mt-1 block text-sm font-medium text-ink">
+              {isOpen ? 'Collapse selected work' : 'Unfold selected work'}
+            </span>
+            <span className="mt-0.5 block text-xs leading-relaxed text-faint">
+              {isOpen
+                ? 'Showing all selected work — collapse when you’re done.'
+                : 'Need more detail on some of the work? Unfold to read the full write-up, outcome and stack.'}
+            </span>
+          </span>
+          <ChevronDown
+            className={`size-4 shrink-0 text-muted transition-transform duration-300 ${
+              isOpen ? 'rotate-180' : ''
+            }`}
+            aria-hidden="true"
+          />
+        </button>
+      </Reveal>
 
-        <div className="mt-12 grid gap-5 sm:grid-cols-2">
+      {isOpen ? (
+        <div id="selected-work" className="mt-5 grid gap-5 sm:grid-cols-2">
           {projects.map((project, index) => (
             <Reveal key={project.title} delay={(index % 2) * 0.06} className="h-full">
               <article className="card card-hover flex h-full flex-col p-6">
@@ -49,7 +75,7 @@ export function Projects() {
             </Reveal>
           ))}
         </div>
-      </div>
-    </section>
+      ) : null}
+    </div>
   )
 }

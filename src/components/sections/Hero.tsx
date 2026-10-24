@@ -35,7 +35,7 @@ export function Hero() {
 
             <Reveal delay={0.18}>
               <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-muted/90">
-                {profile.summary.split('. ')[0]}.
+                {profile.intro.split('. ')[0]}.
               </p>
             </Reveal>
 
@@ -112,7 +112,7 @@ export function Hero() {
                   <span className="text-accent">focus</span>: [<span className="text-ink">'React'</span>,{' '}
                   <span className="text-ink">'Node.js'</span>, <span className="text-ink">'Azure'</span>],{'\n'}
                   {'  '}
-                  <span className="text-accent">domain</span>: <span className="text-ink">'Healthcare'</span>,{'\n'}
+                  <span className="text-accent">domain</span>: <span className="text-ink">'Product Engineering'</span>,{'\n'}
                   {'  '}
                   <span className="text-accent">based</span>: <span className="text-ink">'Tamil Nadu, India'</span>,{'\n'}
                   {'}'}
@@ -122,9 +122,6 @@ export function Hero() {
               <figcaption className="flex items-center gap-2 border-t border-line px-4 py-3 text-xs text-faint">
                 <MapPin className="size-3.5" aria-hidden="true" />
                 {profile.location}
-                <span aria-hidden="true" className="ml-auto font-mono text-[10px] text-accent">
-                  ● open to opportunities
-                </span>
               </figcaption>
             </figure>
           </Reveal>

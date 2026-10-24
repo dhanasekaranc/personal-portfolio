@@ -25,7 +25,6 @@ export const skills: SkillGroup[] = [
     items: [
       'Node.js',
       'Express.js',
-      'Spring Boot',
       'REST APIs',
       'Jest',
       'Mocha',

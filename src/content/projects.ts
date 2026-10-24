@@ -9,7 +9,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     title: 'Gamified daily task engine',
-    context: 'Healthcare engagement platform',
+    context: 'Member engagement platform',
     summary:
       'Designed and led an event-driven engine that generates personalised daily tasks and surprise rewards for members, decoupling next-task computation from the completion API so the experience stays fast as usage grows.',
     metric: 'Event-driven',

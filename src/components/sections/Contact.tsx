@@ -46,7 +46,6 @@ export function Contact() {
                   <MapPin className="size-3.5 shrink-0" aria-hidden="true" />
                   {profile.location}
                 </p>
-                <p className="pl-[1.375rem]">{profile.availability}</p>
               </div>
 
               <ul className="mt-10 grid gap-3 sm:grid-cols-2">

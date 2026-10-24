@@ -2,6 +2,7 @@ import { experience } from '../../content/experience'
 import { RichText } from '../ui/RichText'
 import { Reveal } from '../ui/Reveal'
 import { SectionHeading } from '../ui/SectionHeading'
+import { SelectedWork } from './SelectedWork'
 
 export function Experience() {
   return (
@@ -9,8 +10,8 @@ export function Experience() {
       <div className="container-page">
         <Reveal>
           <SectionHeading eyebrow="02 — Experience" title="Seven years of building and modernising.">
-            From e-commerce flows at TCS to platform-scale migrations in healthcare — the through
-            line is systems that stay reliable as they grow.
+            Hands-on across web, mobile and cloud — from feature delivery to the migrations,
+            framework upgrades and tooling that keep large systems maintainable.
           </SectionHeading>
         </Reveal>
 
@@ -59,6 +60,8 @@ export function Experience() {
             </Reveal>
           ))}
         </ol>
+
+        <SelectedWork />
       </div>
     </section>
   )

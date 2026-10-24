@@ -12,19 +12,11 @@ export function About() {
 
         <div className="mt-12 grid gap-10 lg:grid-cols-[1.45fr_1fr] lg:gap-16">
           <div className="space-y-5 text-base leading-relaxed text-muted sm:text-[17px]">
-            <Reveal>
-              <p>{profile.intro}</p>
-            </Reveal>
-            <Reveal delay={0.06}>
-              <p>{profile.summary}</p>
-            </Reveal>
-            <Reveal delay={0.12}>
-              <p>
-                I&apos;m looking for a full stack engineering role where infrastructure is part
-                of the job — owning a feature from the React component down to the Kubernetes
-                workload, rather than handing it off at the boundary.
-              </p>
-            </Reveal>
+            {profile.about.map((paragraph, index) => (
+              <Reveal key={paragraph} delay={index * 0.06}>
+                <p>{paragraph}</p>
+              </Reveal>
+            ))}
           </div>
 
           <Reveal delay={0.1}>
@@ -52,13 +44,6 @@ export function About() {
                 </p>
                 <p className="mt-1.5 text-sm text-ink">
                   Senior Consultant Developer · Thoughtworks
-                </p>
-
-                <p className="mt-5 font-mono text-[10px] uppercase tracking-[0.16em] text-faint">
-                  Open to
-                </p>
-                <p className="mt-1.5 text-sm text-ink">
-                  Full stack engineer roles with infrastructure ownership
                 </p>
               </div>
             </div>
